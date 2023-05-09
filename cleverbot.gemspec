@@ -51,7 +51,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.7"])
       s.add_development_dependency(%q<git>, ["< 1.2.6", ">= 1.0.1"])
       s.add_development_dependency(%q<simplecov>, ["~> 0.7.1"])
-      s.add_development_dependency(%q<rdoc>, ["~> 4.0.1"])
+      s.add_development_dependency(%q<rdoc>, "~> 6.3.1")
       s.add_development_dependency(%q<rspec>, ["~> 2.14.1"])
     else
       s.add_dependency(%q<httparty>, ["< 1.0", ">= 0.8.1"])
@@ -59,7 +59,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<jeweler>, ["~> 1.8.7"])
       s.add_dependency(%q<git>, ["< 1.2.6", ">= 1.0.1"])
       s.add_dependency(%q<simplecov>, ["~> 0.7.1"])
-      s.add_dependency(%q<rdoc>, ["~> 4.0.1"])
+      s.add_dependency(%q<rdoc>, "~> 6.3.1")
       s.add_dependency(%q<rspec>, ["~> 2.14.1"])
     end
   else
@@ -68,7 +68,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, ["~> 1.8.7"])
     s.add_dependency(%q<git>, ["< 1.2.6", ">= 1.0.1"])
     s.add_dependency(%q<simplecov>, ["~> 0.7.1"])
-    s.add_dependency(%q<rdoc>, ["~> 4.0.1"])
+    s.add_dependency(%q<rdoc>, "~> 6.3.1")
     s.add_dependency(%q<rspec>, ["~> 2.14.1"])
   end
 end
